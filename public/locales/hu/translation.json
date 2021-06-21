@@ -1,0 +1,7 @@
+{
+  "sayHi": "Szia Danika! {{count}}",
+  "sayHi_plural": "Szia Danika! a szám már {{count}}",
+  "sayHi_elso": "Szia ez az első Context",
+  "secondSentence": "Hello ez a  <1>második</1> mondat",
+  "sentence3": "Ez a 3. mondat {{text,alakitas}}"
+}
