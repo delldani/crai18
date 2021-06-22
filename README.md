@@ -1,4 +1,5 @@
 This is a basic react-i18next example   with Cra ! 
+based on this article : https://dev.to/adrai/how-to-properly-internationalize-a-react-application-using-i18next-3hdb
 
 # Getting Started with Create React App
 
