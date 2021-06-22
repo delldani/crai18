@@ -1,8 +1,7 @@
 import React, { Suspense } from "react";
-import ReactDOM from "react-dom";
 import i18n from "i18next";
 import Content from "./Content";
-import { useTranslation, initReactI18next } from "react-i18next";
+import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 
 i18n
@@ -12,9 +11,10 @@ i18n
     // the translations
     // (tip move them in a JSON file and import them,
     // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
-    // backend: {
-    //   loadPath: "/locales/{{lng}}/{{ns}}.json",
-    // },
+    backend: {
+      loadPath: "/locales/{{lng}}/{{ns}}.json",
+      addPath: "/locales/add/{{lng}}/{{ns}}",
+    },
     // resources: {
     //   en: {
     //     translation: {
@@ -43,7 +43,10 @@ i18n
       escapeValue: false,
 
       format: (value, format, lng) => {
-        if (format === "alakitas") return value + " ezt hozzáadtam";
+        if (format === "alakitas")
+          return lng === "hu"
+            ? value + " ezt hozzáadtam"
+            : value + " text adding";
         return value;
       },
     },

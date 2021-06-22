@@ -1,7 +1,8 @@
 {
-  "sayHi": "Hi Mr. Dell(React Developer)! {{count}}",
-  "sayHi_plural": "Hi Mr. Dell(React Developer)! count is  already {{count}}",
-  "sayHi_elso": "Hi this is the first Context",
+  "sayHi": "Hi greetings! {{count}}",
+  "sayHi_plural": "Hi greetings! count is  already {{count}}",
+  "sayHi_elso": "Hi this is the first Context {{count}}",
+  "sayHi_elso_plural": "Hi this is the first Context,number is plural {{count}}",
   "secondSentence": "Hi this is the <1>second</1> sentence",
   "sentence3": "This is the 3. sentence {{text,alakitas}}"
 }
