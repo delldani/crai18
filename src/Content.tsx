@@ -20,7 +20,7 @@ const Content: React.FC<ContentProps> = () => {
   return (
     <div>
       <h3>{t("sayHi", { count: value })}</h3>
-      <h3> {t("sayHi", { count: value, context: "elso" })}</h3>
+      <h3> {t("sayHi", { context: "elso", count: value })}</h3>
       <h3> {t("sentence3", { text: "haliho" })}</h3>
       <Trans i18nKey="secondSentence">
         Halihó ez a <strong>második</strong> mondat
