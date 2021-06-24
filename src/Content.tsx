@@ -21,10 +21,10 @@ const Content: React.FC<ContentProps> = () => {
     <div>
       <h3>{t("sayHi", { count: value })}</h3>
       <h3> {t("sayHi", { context: "elso", count: value })}</h3>
-      <h3> {t("sentence3", { text: "haliho" })}</h3>
       <Trans i18nKey="secondSentence">
         Halihó ez a <strong>második</strong> mondat
       </Trans>
+      <h3> {t("sentence3", { text: "haliho" })}</h3>
       <br />
       <button onClick={onClick}>Change language</button>
       <br />

@@ -1,6 +1,6 @@
 {
-  "sayHi": "Hi greetings! {{count}}",
-  "sayHi_plural": "Hi greetings! count is  already {{count}}",
+  "sayHi": "Hi greetings! The number is : {{count}}",
+  "sayHi_plural": "Hi greetings! The number is  already {{count}}",
   "sayHi_elso": "Hi this is the first Context {{count}}",
   "sayHi_elso_plural": "Hi this is the first Context,number is plural {{count}}",
   "secondSentence": "Hi this is the <1>second</1> sentence",
